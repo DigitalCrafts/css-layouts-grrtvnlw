@@ -1,20 +1,22 @@
 aside {
     width: 20%;
     float: right;
-    top: 88px;
-    height: auto;
+    display: block;
+    height: 850px;
 }
 
 main {
     width: 80%;
     float: left;
-    top: 88px;
-    height: calc(100% - 88px);
+    display: block;
+}
+
+.clearfix {
+    clear: both;
 }
 
 footer {
-    clear: both;
-    /* position: fixed;
+    position: fixed;
+    width: 100%;
     bottom: 0;
-    width: 100%; */
 }
