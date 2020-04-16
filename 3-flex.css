@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+
+header {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+main {
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    width: 80%; 
+    /* order: 1; */
+} 
+
+aside {
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    width: 20%;
+    /* order: 2 */
+}
+
+footer {
+    flex-direction: row;
+    justify-content: flex-start;
+}
